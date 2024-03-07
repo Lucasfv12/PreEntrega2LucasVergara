@@ -15,55 +15,26 @@ body{
     background-color: #F4F6F6;
 }
 
-/* Comienza header */
-
-header{
-    background-color:#046CD5;
-    width: 100%;
-    height: 50px;
+.overlay-nivel-inicial{
+    padding-top: 60px;
 }
 
-header ul li{
-    text-decoration: none;
-    list-style: none;
-    width: 100%;
-    margin-top: 10px;
-    padding-left: 70px;
+/* Contendeor Carrusel */
+.contenedor-carrusel{
+    padding-top: 70px;
 }
-
-.header__contenido a{
-    text-decoration: none;
-    list-style: none;
-    color: white;
+@media only screen and (max-width:472px){
+    .contenedor-carrusel{
+        padding-top: 110px;
+    }
 }
+@media only screen and (max-width:383px){
+    .titulo-nav{
+        font-size: 18px;
+    }
+} 
+/* Contenedor Carrusel */
 
-.header__contenido a:hover{
-    color: black;
-}
-
-.header__contenido .icono1::after{
-    content: 'LLAMANOS';
-}
-.header__contenido .icono2::after{
-    content: 'ESCRIBINOS';
-}
-.header__contenido .icono3::after{
-    content: 'LUNES A VIERNES - 8:00 A 17:00 HS';
-}
-
-.header__contenido{
-    display: flex;
-    width: 100%;
-}
-
-/* Comienza Nav */
-
-
-/* Termina Nav */
-
-
-
-/* Termina el header */
 
 .contenedor-card{
     display: flex;
@@ -134,15 +105,6 @@ h2{
     font-size: 50px;
     margin-top: 50px;
     margin-left: 50px;
-}
-
-.iconos-header{
-    display: flex;
-}
-
-.iconos-header__logo{
-    color: white;
-    padding-right: 10px;
 }
 
 
